@@ -1,3 +1,5 @@
+gem install jekyll-gist jekyll-coffeescript jekyll-assets another-jekyll-plugin
+
 ## Midterm2 MENG602/438
 
 input
