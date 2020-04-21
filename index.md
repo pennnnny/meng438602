@@ -6,18 +6,12 @@ input
 
 The Lower Colorado River consists of a series of four reservoirs as shown in Fig. P11.12. Mass balances can be written for each reservoir, and the following set of simultaneous linear algebraic equations results: Ac=b
 
-<div class="signup-cta">
-
-  <h2>Sign up to the newsletter</h2>
-  <p>Receive daily updates straight to your inbox—just fill out your name and email address and hit Submit!</p>
-
   <form method="POST">
-    <input id="name" placeholder="First name">
-    <input type="email" placeholder="Email address">
+    <input name="name" placeholder="name">
+    <input NYIT id="id" placeholder="00000000">
     <button type="submit">Submit</button>
   </form>
 
-</div>
 
 ## Welcome to GitHub Pages
 
