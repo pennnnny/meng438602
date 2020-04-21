@@ -1,9 +1,9 @@
 
 
-## Midterm2 MENG602/438
+# Midterm2 MENG602/438
 
 
-# Student's information
+## Student's information
 
 
 <script type = "text/javascript">
@@ -14,18 +14,22 @@
     {
 </script>
 
+function getmatrix()
+    {
+      var m1 = id*3;
+      alert(m1);
+    {
+    
 <body>
 <input name="name" placeholder="name">
 <br>
 <input NYITid="id" placeholder="nyit ID">
 <button onclick = "getmatrix()" id = "btn1">Generate question</button>
 </body>
- 
-function getmatrix(a, b) {
-  return a * b;             // Function returns the product of a and b
-}
 
-##Problem 1 
+
+
+## Problem 1 
 
 The Lower Colorado River consists of a series of four reservoirs as shown in Fig. P11.12. Mass balances can be written for each reservoir, and the following set of simultaneous linear algebraic equations results: Ac=b
 
