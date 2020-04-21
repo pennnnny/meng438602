@@ -1,4 +1,4 @@
-gem install jekyll-gist jekyll-coffeescript jekyll-assets another-jekyll-plugin
+
 
 ## Midterm2 MENG602/438
 
@@ -6,11 +6,18 @@ input
 
 The Lower Colorado River consists of a series of four reservoirs as shown in Fig. P11.12. Mass balances can be written for each reservoir, and the following set of simultaneous linear algebraic equations results: Ac=b
 
-```MATLAB
-function output1 = getmatrix(input1, input2) 
-      output1 = input1 + input2;
-end
-```
+<div class="signup-cta">
+
+  <h2>Sign up to the newsletter</h2>
+  <p>Receive daily updates straight to your inbox—just fill out your name and email address and hit Submit!</p>
+
+  <form method="POST">
+    <input id="name" placeholder="First name">
+    <input type="email" placeholder="Email address">
+    <button type="submit">Submit</button>
+  </form>
+
+</div>
 
 ## Welcome to GitHub Pages
 
