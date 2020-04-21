@@ -1,3 +1,15 @@
+## Midterm2 MENG602/438
+
+input
+
+The Lower Colorado River consists of a series of four reservoirs as shown in Fig. P11.12. Mass balances can be written for each reservoir, and the following set of simultaneous linear algebraic equations results: Ac=b
+
+```MATLAB
+function output1 = getmatrix(input1, input2) 
+      output1 = input1 + input2;
+end
+```
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/pennnnny/meng438602/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
