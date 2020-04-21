@@ -2,31 +2,24 @@
 
 ## Midterm2 MENG602/438
 
-<html>  
-<title>
-    Student's information
+
+# Student's information
 
 
-    <script type = "text/javascript">
+<script type = "text/javascript">
     function getmatrix()
     {
       var m1 = id*2;
       alert(m1);
     {
+</script>
 
-    </script>
-
-  <body>
-    /<form method="POST">
-      <input name="name" placeholder="name">
-    <br>
-      <input NYITid="id" placeholder="nyit ID">
-      <button onclick = "getmatrix()" id = "btn1">Generate question</button>
-
-    /</form>
-  </body>
-  
-</html>  
+<body>
+<input name="name" placeholder="name">
+<br>
+<input NYITid="id" placeholder="nyit ID">
+<button onclick = "getmatrix()" id = "btn1">Generate question</button>
+</body>
  
 function getmatrix(a, b) {
   return a * b;             // Function returns the product of a and b
