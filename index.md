@@ -9,7 +9,7 @@ $x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
 $\forall x \in X, \quad \exists y \leq \epsilon$
  
 <body>
-<input name="name" placeholder="name"type="text"/><br>
+<input name="name" placeholder="name" type="text"/><br>
 <input NYITid="id" placeholder="nyit ID" type="text"/><br>
 <button onclick = "printinfo()" type="button">Generate question</button>
 </body>
