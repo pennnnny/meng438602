@@ -4,11 +4,13 @@
 
 ## Student's information
 
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
+$\forall x \in X, \quad \exists y \leq \epsilon$
  
 <body>
-<input name="name" placeholder="name">
-<br>
-<input NYITid="id" placeholder="nyit ID">
+<input name="name" placeholder="name"type="text"/><br>
+<input NYITid="id" placeholder="nyit ID" type="text"/><br>
 <button onclick = "printinfo()" type="button">Generate question</button>
 </body>
 <br>
@@ -19,10 +21,8 @@ function printinfo()
     document.write("name");
     document.write("id")
     document.write("NYITid")
-    {
     document.write("<h1>Hello World</h1>");
-    document.write("m1");
-    document.write(m1);
+
 }
 </script>
 
