@@ -5,16 +5,13 @@
 ## Student's information
 
 $-b \pm \sqrt{b^2 - 4ac} \over 2a$
-$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
-$\forall x \in X, \quad \exists y \leq \epsilon$
  
 <body>
-//<form id="percentageBiz" method="post">
+
 <input type="text" id="sum1">
 <input type="text" id="sum2">
 <input type="submit" onclick="return getp()" value="Generate Parameters">
-</form>
-//<div id="display" style="height: 50px; width: 100%;"></div>​
+
 </body>
 <br>
 
@@ -55,6 +52,15 @@ b =
 Determine the solution of the simultaneous nonlinear equations
 Use Newton-Raphson method and employ initial guesses of x = y = 1.2. (1) Write and calculate Jacobian matrix. (2) Calculate x and y after first iteration and calculate ea (error). <br>
 
+
+
+
+<body>
+
+<input type="text" id="pw1" placeholder="aceess code">
+<input type="submit" onclick="return runsol()" value="Generate Solution">
+
+</body>
 
 
 <script>
