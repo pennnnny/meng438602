@@ -7,7 +7,9 @@
 <script>
     function getmatrix()
     {
-      document.write("name");
+    document.write("name");
+    document.write("id")
+    document.write("NYITid")
     {
     document.write("<h1>Hello World</h1>");
     document.write("m1");
@@ -21,6 +23,8 @@
 <input NYITid="id" placeholder="nyit ID">
 <button onclick = "getmatrix()" id = "btn1">Generate question</button>
 </body>
+<br>
+
 
 ## Problem 1 
 
