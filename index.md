@@ -10,7 +10,7 @@
     function getmatrix()
     {
       var m1 = id*2;
-      document.write("m1");
+      document.write("name");
     {
 </script>
 
