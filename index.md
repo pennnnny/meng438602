@@ -11,7 +11,6 @@ $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 <input type="text" id="sum1">
 <input type="text" id="sum2">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
-
 </body>
 
 The question is for student:
