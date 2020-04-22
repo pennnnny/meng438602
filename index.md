@@ -13,7 +13,7 @@ $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 
 </body>
-</form>
+
 The question is for student:
 <br>
 
