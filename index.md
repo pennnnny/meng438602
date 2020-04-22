@@ -5,7 +5,6 @@
 
 ## Student's information
 
-    // Try edit message
 <script>
 document.write("Hello" + "<br>")
 var x = 1;
