@@ -57,7 +57,12 @@ Use Newton-Raphson method and employ initial guesses of x = y = 1.2. <br>
 (ii) Calculate x and y after first iteration and calculate ea (error). <br>
 
 
+<body>
 
+<input type="submit" onclick="return printpdf()" value="Print">
+
+</body>
+<br>
 
 <body>
 
