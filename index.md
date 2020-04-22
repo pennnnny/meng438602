@@ -5,7 +5,8 @@
 
 ## Student's information
 
-// Try edit message
+    // Try edit message
+<script>
 document.write("Hello" + "<br>")
 var x = 1;
 var y = 2;
@@ -19,7 +20,7 @@ for (x of cars) {
   document.write(x + "<br >");
 }
 
-
+</script>
 
 
 <div id="text"></div>
