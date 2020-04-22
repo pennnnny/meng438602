@@ -15,6 +15,9 @@ document.getElementById("text").innerHTML = "Text added by JavaScript code";
       var m1 = id*2;
       document.write("name");
     {
+    document.write("<h1>Hello World</h1>");
+    document.write("m1");
+    document.write(m1);
 </script>
 
 
