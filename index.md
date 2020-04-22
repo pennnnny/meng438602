@@ -18,11 +18,8 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 <script>
 function printinfo()
 {
-    document.write("name");
-    document.write("id")
-    document.write("NYITid")
-    document.write("<h1>Hello World</h1>");
-
+    alert("name");
+    
 }
 </script>
 
