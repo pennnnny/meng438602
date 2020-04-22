@@ -4,6 +4,15 @@
 
 ## Student's information
 
+ 
+<body>
+<input name="name" placeholder="name">
+<br>
+<input NYITid="id" placeholder="nyit ID">
+<button onclick = "getmatrix()" type="button">Generate question</button>
+</body>
+<br>
+
 <script>
     function getmatrix()
     {
@@ -15,15 +24,6 @@
     document.write("m1");
     document.write(m1);
 </script>
-
-   
-<body>
-<input name="name" placeholder="name">
-<br>
-<input NYITid="id" placeholder="nyit ID">
-<button onclick = "getmatrix()" id = "btn1">Generate question</button>
-</body>
-<br>
 
 
 ## Problem 1 
