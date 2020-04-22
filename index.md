@@ -9,13 +9,13 @@
 <input name="name" placeholder="name">
 <br>
 <input NYITid="id" placeholder="nyit ID">
-<button onclick = "getmatrix()" type="button">Generate question</button>
+<button onclick = "printinfo()" type="button">Generate question</button>
 </body>
 <br>
 
 <script>
-    function getmatrix()
-    {
+function printinfo()
+{
     document.write("name");
     document.write("id")
     document.write("NYITid")
@@ -23,6 +23,7 @@
     document.write("<h1>Hello World</h1>");
     document.write("m1");
     document.write(m1);
+}
 </script>
 
 
