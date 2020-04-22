@@ -5,8 +5,11 @@
 
 ## Student's information
 
-```javascript
-<script type = "text/javascript">
+<div id="text"></div>
+<script>
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
+</script>
+<script>
     function getmatrix()
     {
       var m1 = id*2;
@@ -24,7 +27,7 @@
 </body>
 
 document.write("hello");
-```
+
 ## Problem 1 
 
 The Lower Colorado River consists of a series of four reservoirs as shown in Fig. P11.12. Mass balances can be written for each reservoir, and the following set of simultaneous linear algebraic equations results: Ac=b
