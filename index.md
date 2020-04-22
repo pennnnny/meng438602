@@ -9,22 +9,22 @@ $x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
 $\forall x \in X, \quad \exists y \leq \epsilon$
  
 <body>
-<form id="percentageBiz" method="post">
+//<form id="percentageBiz" method="post">
 <input type="text" id="sum1">
 <input type="text" id="sum2">
-<input type="submit" onclick="return total()" value="Get Total">
+<input type="submit" onclick="return getp()" value="Generate Parameters">
 </form>
-<div id="display" style="height: 50px; width: 100%;"></div>​
+//<div id="display" style="height: 50px; width: 100%;"></div>​
 </body>
 <br>
 
 <script>
-function total(){
-    var a = document.forms["percentageBiz"]["sum1"].value;
+function getp(){
+    //var a = document.forms["percentageBiz"]["sum1"].value;
     var b = document.forms["percentageBiz"]["sum2"].value;
     //alert(a+b)
     var display=document.getElementById("display")
-    display.innerHTML=parseInt(a,10)+parseInt(b,10);
+    display.innerHTML=+parseInt(b,10);
     return false;
  }
 </script>
