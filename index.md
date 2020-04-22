@@ -5,6 +5,23 @@
 
 ## Student's information
 
+// Try edit message
+document.write("Hello" + "<br>")
+var x = 1;
+var y = 2;
+id = x+y;
+id2 = [x,y];
+
+var cars = ['BMW', 'Volvo', 'Mini'];
+var x;
+
+for (x of cars) {
+  document.write(x + "<br >");
+}
+
+
+
+
 <div id="text"></div>
 <script>
 document.getElementById("text").innerHTML = "Text added by JavaScript code";
@@ -21,7 +38,7 @@ document.getElementById("text").innerHTML = "Text added by JavaScript code";
 </script>
 
 
-    
+   
 <body>
 <input name="name" placeholder="name">
 <br>
