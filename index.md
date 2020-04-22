@@ -10,15 +10,11 @@
     function getmatrix()
     {
       var m1 = id*2;
-      alert(m1);
+      document.write("m1");
     {
 </script>
 
-function getmatrix()
-    {
-      var m1 = id*3;
-      alert(m1);
-    {
+
     
 <body>
 <input name="name" placeholder="name">
@@ -27,7 +23,7 @@ function getmatrix()
 <button onclick = "getmatrix()" id = "btn1">Generate question</button>
 </body>
 
-
+document.write("m1");
 
 ## Problem 1 
 
