@@ -18,7 +18,7 @@ The question is for student:
 <br>
 
 <script>
-function total(){
+function getp(){
     var a = document.forms["percentageBiz"]["sum1"].value;
     var b = document.forms["percentageBiz"]["sum2"].value;
     //alert(a+b)
