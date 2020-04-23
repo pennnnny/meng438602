@@ -6,11 +6,12 @@
 
 $-b \pm \sqrt{b^2 - 4ac} \over 2a$
  
-
 <form id="percentageBiz" method="post">
 <input type="text" id="sum1">
 <input type="text" id="sum2">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
+</form>
+<div id="display" style="height: 50px; width: 100%;"></div>
 
 
 The question is for student:
@@ -18,13 +19,15 @@ The question is for student:
 
 <script>
 function getp(){
-    //var a = document.forms["percentageBiz"]["sum1"].value;
+    var a = document.forms["percentageBiz"]["sum1"].value;
     var b = document.forms["percentageBiz"]["sum2"].value;
     //alert(a+b)
     var display=document.getElementById("display")
-    display.innerHTML=+parseInt(b,10);
+    display.innerHTML=parseInt(a,10);
+    display.innerHTML=parseInt(b,10);
     return false;
- }
+}
+
 </script>
 
 
