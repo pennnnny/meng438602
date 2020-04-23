@@ -25,8 +25,8 @@ function getp(){
     display.innerHTML=a;
     display2.innerHTML=parseInt(b,10);
     display3.innerHTML=parseInt(b,10)*10;
-    display4.innerHTML=parseInt(b,10);
-    display5.innerHTML=parseInt(b,10);
+    display4.innerHTML=1+parseInt(b,10)/1e8;
+    display5.innerHTML=1+parseInt(b,10)/1e8;
     
     return false;
 }
@@ -46,7 +46,7 @@ function show(){
 
 A set of simultaneous linear algebraic equations results: Ac=b<br>
 
-A = 
+**A** = 
 <div id="display2" style="height: 50px; width: 100%;"></div>
 <script>
   document.write(name)
@@ -56,7 +56,7 @@ A =
 </script>
 <br>
 
-b = 
+**b** = 
 <div id="display3" style="height: 50px; width: 100%;"></div>
 <script>
   document.write("tabe2")
@@ -70,10 +70,10 @@ b =
 ## Problem 2 
 
 Determine the solution of the simultaneous nonlinear equations<br>
-Use Newton-Raphson method and employ initial guesses of 
-x = 
+Use Newton-Raphson method and employ initial guesses of <br>
+_x_ = 
 <div id="display4" style="height: 50px; width: 100%;"></div>
-y = 
+_y_ = 
 <div id="display5" style="height: 50px; width: 100%;"></div>
 
 <br>
