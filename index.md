@@ -18,7 +18,7 @@ The question is for student:
 
 <script>
 function getp(){
-    var a = document.forms["percentageBiz"]["name"].str;
+    var a = document.forms["percentageBiz"]["name"].value;
     var b = document.forms["percentageBiz"]["nyitid"].value;
     //alert(a+b)
     var display=document.getElementById("display")
@@ -66,8 +66,10 @@ b =
 ## Problem 2 
 
 Determine the solution of the simultaneous nonlinear equations<br>
-Use Newton-Raphson method and employ initial guesses of x = y = 
-<div id="display4" style="height: 50px; width: 100%;"></div>
+Use Newton-Raphson method and employ initial guesses of 
+x = <div id="display4" style="height: 50px; width: 100%;"></div>
+y = <div id="display5" style="height: 50px; width: 100%;"></div>
+
 <br>
 (i) Write and calculate Jacobian matrix. <br>
 (ii) Calculate x and y after first iteration and calculate ea (error). <br>
