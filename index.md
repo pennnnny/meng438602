@@ -35,7 +35,7 @@ function show(){
 </script>
 
 <script>
- document.write("name");
+ document.write(a);
 </script>
 
 
