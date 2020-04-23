@@ -1,17 +1,17 @@
 
 
-# Midterm2 MENG602/438
+# Midterm 2 MENG602/438
+Date: April 30th 2020
+Time: 5:45pm - 11:45pm
 
 ## Student's information
-
-$-b \pm \sqrt{b^2 - 4ac} \over 2a$
  
 <form id="percentageBiz" method="post">
 <input type="text" id="name" placeholder = "Name">
 <input type="text" id="nyitid" placeholder = "NYIT ID">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
-
+<br>
 The question is for student: 
 <div id="display" style="height: 50px; width: 100%;"></div>
 <br>
@@ -27,23 +27,15 @@ function getp(){
     display3.innerHTML=parseInt(b,10)*10;
     display4.innerHTML=1+parseInt(b,10)/1e8;
     display5.innerHTML=1+parseInt(b,10)/1e8;
+    display6.innerHTML=1+parseInt(b,10)/10;
+    display7.innerHTML=1+parseInt(b,10)/10;
     
     return false;
 }
 </script>
-<script>
-function show(){
- document.write("00");
- }
-</script>
-
-<script>
- document.write(a);
-</script>
-
 
 ## Problem 1 
-A set of simultaneous linear algebraic equations results: Ac=b<br>
+A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
 **A** = 
 <div id="display2" style="height: 50px; width: 100%;"></div>
@@ -59,21 +51,37 @@ A set of simultaneous linear algebraic equations results: Ac=b<br>
 ## Problem 2 
 Determine the solution of the simultaneous nonlinear equations<br>
 
-![](images/table eq1.png, "eq1_0")
-![](images/table eq1.png?raw=true)
 ![alt text](Images/eq1.png "eq1")
-
 
 Use Newton-Raphson method and employ initial guesses of <br>
 _x<sub>1</sub>_ = 
 <div id="display4" style="height: 50px; width: 100%;"></div>
+test<p id="display4"></p>test
 _x<sub>2</sub>_ = 
 <div id="display5" style="height: 50px; width: 100%;"></div>
 
-<br>
 (i) Write and calculate Jacobian matrix. <br>
-(ii) Calculate x and y after first iteration and calculate ea (error). <br>
+(ii) Calculate x and y after first iteration and calculate f1 and f2 with updated x1, x2.<br>
+(iii) Calcualte error of approximation, ea (error). <br>
 
+## Problem 3
+Application of Eigenvales and Eigenvectors
+Consider the mass spring model to gain insight into the dynamics of structures under the influence of disturbances such as earthquakes.
+Figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k<sub>i</sub>, for i = 1 and 2. The frequencies for the mass vibrations can be determined by solving for the eigenvalues and by applying M_x<sup>"</sup>_ + _kx_ = 0, which yields
+
+![alt text](Images/mx1.png "mx1")
+Applying the guess x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup> as a solution, we get the following matrix:
+![alt text](Images/mx2.png "mx2")
+
+where xi represent horizontal floor displacement, and ωn is the natural, or resonant, frequency (radians/s).
+
+Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = 
+<div id="display6" style="height: 50px; width: 100%;"></div> (Kg)
+and k = 
+<div id="display7" style="height: 50px; width: 100%;"></div> (N/m)
+
+(i) Use eigenvalues to solve for freqencies.
+(ii) If mass of floors is unknown, based on the observation, the frequency is 1, what is possiblm m1 mass.
 
 <input type="submit" onclick="return printpdf()" value="Print">
 ## Submission
@@ -85,35 +93,3 @@ Use above print bottom to save your exam sheet to pdf and upload with your solut
 
 <br>
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-``markdown
-Syntax highlighted code block
-
-# Header 1 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pennnnny/meng438602/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
