@@ -18,12 +18,12 @@ The question is for student:
 
 <script>
 function getp(){
-    var a = document.forms["percentageBiz"]["name"].text;
+    var a = document.forms["percentageBiz"]["name"].str;
     var b = document.forms["percentageBiz"]["nyitid"].value;
     //alert(a+b)
     var display=document.getElementById("display")
     display.innerHTML=a;
-    display2.innerHTML=parseInt(a,10);
+    display2.innerHTML=parseInt(b,10);
     return false;
 }
 </script>
