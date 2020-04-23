@@ -54,35 +54,36 @@ Determine the solution of the simultaneous nonlinear equations<br>
 ![alt text](Images/eq1.png "eq1")
 
 Use Newton-Raphson method and employ initial guesses of <br>
-_x<sub>1</sub>_ = 
+_**x<sub>1</sub>**_ = 
 <div id="display4" style="height: 50px; width: 100%;"></div>
-test<p id="display4"></p>test
-_x<sub>2</sub>_ = 
+<p id="display4"></p>test<br>
+_**x<sub>2</sub>**_ = 
 <div id="display5" style="height: 50px; width: 100%;"></div>
 
 (i) Write and calculate Jacobian matrix. <br>
-(ii) Calculate x and y after first iteration and calculate f1 and f2 with updated x1, x2.<br>
-(iii) Calcualte error of approximation, ea (error). <br>
+(ii) Calculate x<sub>1</sub> and x<sub>2</sub> after first iteration and calculate _f<sub>1</sub>_ and _f<sub>2</sub>_ with updated x<sub>1</sub>, x<sub>2</sub>.<br>
+(iii) Calcualte error of approximation, ea. <br>
 
 ## Problem 3
 Application of Eigenvales and Eigenvectors
 ![alt text](Images/floor1.png "fr1")
 Consider the mass spring model to gain insight into the dynamics of structures under the influence of disturbances such as earthquakes.
-Above figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k<sub>i</sub>, for i = 1 and 2. The frequencies for the mass vibrations can be determined by solving for the eigenvalues and by applying M_x<sup>"</sup>_ + _kx_ = 0, which yields
+Above figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k<sub>i</sub>, for i = 1 and 2. <br>
+The frequencies for the mass vibrations can be determined by solving for the eigenvalues and by applying _MX<sup>"</sup>_ + _kX_ = 0, which yields
 
 ![alt text](Images/mx1.png "mx1")
-Applying the guess x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup> as a solution, we get the following matrix:
+Applying the guess **x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup>** as a solution, we get the following matrix:
 ![alt text](Images/mx2.png "mx2")
 
-where xi represent horizontal floor displacement, and ωn is the natural, or resonant, frequency (radians/s).
+where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> is the natural, or resonant, frequency (radians/s).
 
-Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = 
-<div id="display6" style="height: 50px; width: 100%;"></div> (Kg)
-and k = 
-<div id="display7" style="height: 50px; width: 100%;"></div> (N/m)
+Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = (Kg)
+<div id="display6" style="height: 50px; width: 100%;"></div> 
+and k = (N/m)
+<div id="display7" style="height: 50px; width: 100%;"></div> 
 
-(i) Use eigenvalues to solve for freqencies.
-(ii) If mass of floors is unknown, based on the observation, the frequency is 1, what is possiblm m1 mass.
+(i) Use eigenvalues to solve for freqencies.<br>
+(ii) If mass of floors is unknown, based on the observation, the frequency is 1, what is possiblm m1 mass.<br>
 
 <input type="submit" onclick="return printpdf()" value="Print">
 ## Submission
