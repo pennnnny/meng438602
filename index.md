@@ -15,7 +15,7 @@ $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 
 
 The question is for student: 
-<body> var s1 = getp(); </body>
+<script> var s1 = getp(); </script>
 <br>
 
 <script>
