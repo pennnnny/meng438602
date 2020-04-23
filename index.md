@@ -46,8 +46,9 @@ A set of simultaneous linear algebraic equations results: Ac=b<br>
 A = 
 <div id="display2" style="height: 50px; width: 100%;"></div>
 <script>
+  document.write(a)
   document.write("tabel")
-  document.getElementById('display2').innerHTML = a;
+  
   document.getElementById('display2').innerHTML = 'inputvalue';
 </script>
 <br>
