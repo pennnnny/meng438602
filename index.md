@@ -65,10 +65,10 @@ _**x<sub>2</sub>**_ =
 (iii) Calcualte error of approximation, ea. <br>
 
 ## Problem 3
-Application of Eigenvales and Eigenvectors
+Application of Eigenvalues and Eigenvectors
 ![alt text](Images/floor1.png "fr1")
 Consider the mass spring model to gain insight into the dynamics of structures under the influence of disturbances such as earthquakes.
-Above figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k<sub>i</sub>, for i = 1 and 2. <br>
+Above figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k. <br>
 The frequencies for the mass vibrations can be determined by solving for the eigenvalues and by applying _MX<sup>"</sup>_ + _kX_ = 0, which yields
 
 ![alt text](Images/mx1.png "mx1")
@@ -83,7 +83,7 @@ and k = (N/m)
 <div id="display7" style="height: 50px; width: 100%;"></div> 
 
 (i) Use eigenvalues to solve for freqencies.<br>
-(ii) If mass of floors is unknown, based on the observation, the frequency is 1, what is possiblm m1 mass.<br>
+(ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m1 mass.<br>
 
 <input type="submit" onclick="return printpdf()" value="Print">
 ## Submission
