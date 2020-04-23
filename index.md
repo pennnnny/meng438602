@@ -59,7 +59,7 @@ A set of simultaneous linear algebraic equations results: Ac=b<br>
 ## Problem 2 
 Determine the solution of the simultaneous nonlinear equations<br>
 
-![alt text](https://github.com/pennnnny/meng438602/blob/master/eq1.tif "eq1")
+![alt text](https://github.com/pennnnny/meng438602/blob/master/eq1.png "eq1")
 
 Use Newton-Raphson method and employ initial guesses of <br>
 _x<sub>1</sub>_ = 
