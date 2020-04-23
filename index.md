@@ -24,6 +24,10 @@ function getp(){
     var display=document.getElementById("display")
     display.innerHTML=a;
     display2.innerHTML=parseInt(b,10);
+    display3.innerHTML=parseInt(b,10)*10;
+    display4.innerHTML=parseInt(b,10);
+    display5.innerHTML=parseInt(b,10);
+    
     return false;
 }
 </script>
