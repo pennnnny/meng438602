@@ -71,8 +71,10 @@ b =
 
 Determine the solution of the simultaneous nonlinear equations<br>
 Use Newton-Raphson method and employ initial guesses of 
-x = <div id="display4" style="height: 50px; width: 100%;"></div>
-y = <div id="display5" style="height: 50px; width: 100%;"></div>
+x = 
+<div id="display4" style="height: 50px; width: 100%;"></div>
+y = 
+<div id="display5" style="height: 50px; width: 100%;"></div>
 
 <br>
 (i) Write and calculate Jacobian matrix. <br>
