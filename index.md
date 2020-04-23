@@ -18,13 +18,12 @@ The question is for student:
 <br>
 
 <script>
-function getp(){
+function total(){
     var a = document.forms["percentageBiz"]["sum1"].value;
     var b = document.forms["percentageBiz"]["sum2"].value;
     //alert(a+b)
     var display=document.getElementById("display")
-    display.innerHTML=parseInt(a,10);
-    display.innerHTML=parseInt(b,10);
+    display.innerHTML=parseInt(a,10)+parseInt(b,10);
     return false;
 }
 
