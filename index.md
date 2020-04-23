@@ -61,7 +61,7 @@ Determine the solution of the simultaneous nonlinear equations<br>
 
 ![](images/table eq1.png, "eq1_0")
 ![](images/table eq1.png?raw=true)
-![alt text](https://github.com/pennnnny/meng438602/blob/master/eq1.png "eq1")
+![alt text](Images/eq1.png "eq1")
 
 
 Use Newton-Raphson method and employ initial guesses of <br>
