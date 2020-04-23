@@ -56,7 +56,7 @@ Determine the solution of the simultaneous nonlinear equations<br>
 Use Newton-Raphson method and employ initial guesses of <br>
 _**x<sub>1</sub>**_ = 
 <div id="display4" style="height: 50px; width: 100%;"></div>
-<p id="display4"></p>test<br>
+
 _**x<sub>2</sub>**_ = 
 <div id="display5" style="height: 50px; width: 100%;"></div>
 
