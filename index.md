@@ -7,15 +7,15 @@
 $-b \pm \sqrt{b^2 - 4ac} \over 2a$
  
 <form id="percentageBiz" method="post">
-<input type="text" id="sum1" placehold = "Name">
-<input type="text" id="sum2" placehold = "NYIT ID">
+<input type="text" id="sum1" placeholder = "Name">
+<input type="text" id="sum2" placeholder = "NYIT ID">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
 <div id="display" style="height: 50px; width: 100%;"></div>
 
 
 The question is for student: 
-<script> show(); </script>
+<script> var s1 = show(); </script>
 <br>
 
 <script>
