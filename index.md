@@ -25,6 +25,7 @@ function getp(){
     //alert(a+b)
     var display=document.getElementById("display")
     display.innerHTML=parseInt(a,10);
+    display2.innerHTML=parseInt(a,10);
     return false;
 }
 </script>
