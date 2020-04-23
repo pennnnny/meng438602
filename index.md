@@ -7,8 +7,8 @@
 $-b \pm \sqrt{b^2 - 4ac} \over 2a$
  
 <form id="percentageBiz" method="post">
-<input type="text" id="sum1" placeholder = "Name">
-<input type="text" id="sum2" placeholder = "NYIT ID">
+<input type="text" id="name" placeholder = "Name">
+<input type="text" id="nyitid" placeholder = "NYIT ID">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
 <div id="display" style="height: 50px; width: 100%;"></div>
@@ -20,16 +20,22 @@ The question is for student:
 
 <script>
 function getp(){
-    var a = document.forms["percentageBiz"]["sum1"].value;
-    var b = document.forms["percentageBiz"]["sum2"].value;
+    var a = document.forms["percentageBiz"]["name"].value;
+    var b = document.forms["percentageBiz"]["nyitid"].value;
     //alert(a+b)
     var display=document.getElementById("display")
     display.innerHTML=parseInt(a,10);
     return false;
 }
+</script>
+<script>
 function show(){
  document.write("00");
  }
+</script>
+
+<script>
+ document.write("name");
 </script>
 
 
