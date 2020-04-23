@@ -11,20 +11,18 @@ $-b \pm \sqrt{b^2 - 4ac} \over 2a$
 <input type="text" id="nyitid" placeholder = "NYIT ID">
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
-<div id="display" style="height: 50px; width: 100%;"></div>
-
 
 The question is for student: 
-<script> var s1 = getp(); </script>
+<div id="display" style="height: 50px; width: 100%;"></div>
 <br>
 
 <script>
 function getp(){
-    var a = document.forms["percentageBiz"]["name"].value;
+    var a = document.forms["percentageBiz"]["name"].text;
     var b = document.forms["percentageBiz"]["nyitid"].value;
     //alert(a+b)
     var display=document.getElementById("display")
-    display.innerHTML=parseInt(a,10);
+    display.innerHTML=a;
     display2.innerHTML=parseInt(a,10);
     return false;
 }
@@ -55,6 +53,7 @@ A =
 <br>
 
 b = 
+<div id="display3" style="height: 50px; width: 100%;"></div>
 <script>
   document.write("tabe2")
 </script>
@@ -67,7 +66,9 @@ b =
 ## Problem 2 
 
 Determine the solution of the simultaneous nonlinear equations<br>
-Use Newton-Raphson method and employ initial guesses of x = y = 1.2. <br>
+Use Newton-Raphson method and employ initial guesses of x = y = 
+<div id="display4" style="height: 50px; width: 100%;"></div>
+<br>
 (i) Write and calculate Jacobian matrix. <br>
 (ii) Calculate x and y after first iteration and calculate ea (error). <br>
 
@@ -87,33 +88,6 @@ Use Newton-Raphson method and employ initial guesses of x = y = 1.2. <br>
 </body>
 <br>
 
-<script>
-document.write("Hello" + "<br>")
-var x = 1;
-var y = 2;
-id = x+y;
-id2 = [x,y];
-
-var cars = ['BMW', 'Volvo', 'Mini'];
-var x;
-
-for (x of cars) {
-  document.write(x + "<br >");
-}
-
-</script>
-
-
-<div id="text"></div>
-<script>
-document.getElementById("text").innerHTML = "Text added by JavaScript code";
-</script>
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/pennnnny/meng438602/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
