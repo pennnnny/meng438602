@@ -22,10 +22,10 @@ function getp(){
     var b = document.forms["percentageBiz"]["nyitid"].value;
     var display=document.getElementById("display")
     display.innerHTML=a;
-    display2_1.innerHTML=[1/parseInt(b,10), 1/parseInt(b,10), 1/parseInt(b,10)];
-    display2_2.innerHTML=parseInt(b,10);
-    display2_3.innerHTML=parseInt(b,10); //array
-    display3.innerHTML=parseInt(b,10)*10;
+    display2_1.innerHTML=[1/parseInt(b,10), 1/(parseInt(b,10)-1), 1/(parseInt(b,10)-2)];
+    display2_2.innerHTML=[1/(1+parseInt(b,10)), 1/parseInt(b,10), 1/(parseInt(b,10)-1)];
+    display2_3.innerHTML=[1/(2+parseInt(b,10)), 1/(parseInt(b,10)+1), 1/parseInt(b,10)];
+    display3.innerHTML=[1, 1, 1];
     display4.innerHTML=1+parseInt(b,10)/1e8;
     display5.innerHTML=1+parseInt(b,10)/1e8;
     display6.innerHTML=1+parseInt(b,10)/10;
@@ -39,7 +39,7 @@ A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<
 
 **A** = [
 <div id="display2_1" style="height: 50px; width: 100%;"></div>
-<div id="display2_2" style="height: 5px; width: 100%;"></div>
+<div id="display2_2" style="height: 25px; width: 100%;"></div>
 <div id="display2_3" style="height: 50px; width: 100%;"></div>
 ]
 <br>
@@ -87,7 +87,7 @@ and _**k**_ (N/m) =
 <div id="display7" style="height: 50px; width: 100%;"></div> 
 
 (i) Use eigenvalues to solve for freqencies.<br>
-(ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m1 mass.<br>
+(ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m<sub>1</sub> mass.<br>
 
 <input type="submit" onclick="return printpdf()" value="Print">
 ## Submission
