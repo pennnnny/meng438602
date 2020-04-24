@@ -20,7 +20,6 @@ The question is for student:
 function getp(){
     var a = document.forms["percentageBiz"]["name"].value;
     var b = document.forms["percentageBiz"]["nyitid"].value;
-    //alert(a+b)
     var display=document.getElementById("display")
     display.innerHTML=a;
     display2.innerHTML=parseInt(b,10);
