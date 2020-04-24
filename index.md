@@ -15,6 +15,7 @@ Time: 5:45pm - 11:45pm
 The question is for student: 
 <div id="display" style="height: 50px; width: 100%;"></div>
 <br>
+
 <script>
 function getp(){
     var a = document.forms["percentageBiz"]["name"].value;
@@ -29,7 +30,6 @@ function getp(){
     display6.innerHTML=1+parseInt(b,10)/10;
     display7.innerHTML=1+parseInt(b,10)/10;
     
-    return false;
 }
 </script>
 
