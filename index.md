@@ -22,7 +22,9 @@ function getp(){
     var b = document.forms["percentageBiz"]["nyitid"].value;
     var display=document.getElementById("display")
     display.innerHTML=a;
-    display2.innerHTML=parseInt(b,10);
+    display2_1.innerHTML=1/parseInt(b,10), 1/parseInt(b,10), 1/parseInt(b,10);
+    display2_2.innerHTML=parseInt(b,10);
+    display2_3.innerHTML=parseInt(b,10); //array
     display3.innerHTML=parseInt(b,10)*10;
     display4.innerHTML=1+parseInt(b,10)/1e8;
     display5.innerHTML=1+parseInt(b,10)/1e8;
@@ -35,8 +37,11 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
-**A** = 
-<div id="display2" style="height: 50px; width: 100%;"></div>
+**A** = [
+<div id="display2_1" style="height: 50px; width: 100%;"></div>
+<div id="display2_2" style="height: 50px; width: 100%;"></div>
+<div id="display2_3" style="height: 50px; width: 100%;"></div>
+]
 <br>
 **b** = 
 <div id="display3" style="height: 50px; width: 100%;"></div>
