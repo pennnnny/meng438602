@@ -22,7 +22,7 @@ function getp(){
     var b = document.forms["percentageBiz"]["nyitid"].value;
     var display=document.getElementById("display")
     display.innerHTML=a;
-    display2_1.innerHTML=1/parseInt(b,10), 1/parseInt(b,10), 1/parseInt(b,10);
+    display2_1.innerHTML=[1/parseInt(b,10), 1/parseInt(b,10), 1/parseInt(b,10)];
     display2_2.innerHTML=parseInt(b,10);
     display2_3.innerHTML=parseInt(b,10); //array
     display3.innerHTML=parseInt(b,10)*10;
@@ -39,12 +39,13 @@ A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<
 
 **A** = [
 <div id="display2_1" style="height: 50px; width: 100%;"></div>
-<div id="display2_2" style="height: 50px; width: 100%;"></div>
+<div id="display2_2" style="height: 5px; width: 100%;"></div>
 <div id="display2_3" style="height: 50px; width: 100%;"></div>
 ]
 <br>
-**b** = 
+**b** = [
 <div id="display3" style="height: 50px; width: 100%;"></div>
+]<sup>T</sup>
 <br>
 
 (i)	Use the matrix inverse to solve for the **c**.<br>
@@ -82,7 +83,7 @@ where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> 
 
 Let **_m<sub>1</sub>_** (Kg) = **_m<sub>2</sub>_** (Kg) = 
 <div id="display6" style="height: 50px; width: 100%;"></div> 
-and **k** (N/m) = 
+and _**k**_ (N/m) = 
 <div id="display7" style="height: 50px; width: 100%;"></div> 
 
 (i) Use eigenvalues to solve for freqencies.<br>
