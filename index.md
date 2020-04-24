@@ -12,10 +12,8 @@ Time: 5:45pm - 11:45pm
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
 <br>
-The question is for student: 
-<div id="display" style="height: 50px; width: 100%;"></div>
+The question is for student: <span id="display" style="height: 50px; width: 100%;"></span>
 <br>
-
 <script>
 function getp(){
     var a = document.forms["percentageBiz"]["name"].value;
