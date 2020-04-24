@@ -29,7 +29,7 @@ function getp(){
     display5.innerHTML=1+parseInt(b,10)/1e8;
     display6.innerHTML=1+parseInt(b,10)/10;
     display7.innerHTML=1+parseInt(b,10)/10;
-    
+    return false
 }
 </script>
 
