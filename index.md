@@ -77,9 +77,9 @@ Applying the guess **x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup>** as a soluti
 
 where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> is the natural, or resonant, frequency (radians/s).
 
-Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = (Kg)
+Let **_m<sub>1</sub>_** (Kg) = **_m<sub>2</sub>_** (Kg) = 
 <div id="display6" style="height: 50px; width: 100%;"></div> 
-and k = (N/m)
+and **k** (N/m) = 
 <div id="display7" style="height: 50px; width: 100%;"></div> 
 
 (i) Use eigenvalues to solve for freqencies.<br>
