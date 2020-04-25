@@ -37,9 +37,8 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
-**A** = [
-<span id="display2_1" ></span>
-<div id="display2_2" style="height: 25px; width: 100%;"></div>
+**A** = [<span id="display2_1" ></span>
+
 <div id="display2_2" style="height: 25px; width: 100%;"></div>
 <div id="display2_3" style="height: 25px; width: 100%;"></div>
 ]
