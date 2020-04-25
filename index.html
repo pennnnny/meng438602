@@ -1,0 +1,186 @@
+
+<html>
+<body>
+<header>
+  <h1>Midterm 2 MENG602/438</h1>
+  <p>
+    Date: April 30th 2020 Time: 5:45pm - 11:45pm
+  </p>
+</header>
+<section>
+  <h2>Student's information</h2>
+  <form id="percentageBiz" method="post">
+    <input type="text" id="name" placeholder = "Name">
+    <input type="text" id="nyitid" placeholder = "NYIT ID">
+    <input type="submit" onclick="return clickedNameGenerate()" value="Generate Parameters"><br>
+  </form>
+  <br>
+  <div class="studentNameContainer">
+    The question is for student:<br/>
+    <div id="studentName"></div>
+  </div>
+  <br>
+</section>
+<section>
+  <h2>Problem 1</h2>
+  <p>A set of simultaneous linear algebraic equations results: <b>A</b> x <b>c</b> = <b>b</b></p>
+  <div class="answerSection">
+    <b>A</b> =
+    <span id="problem1AnswerA" class="answer">
+    </span>
+  </div>
+
+  <div class="answerSection -end">
+    <b>b</b> =
+    <span id="problem1AnswerB" class="answer">
+    </span>
+  </div>
+  <ul>
+    <li>Use the matrix inverse to solve for the <b>c</b></li>
+    <li>Find Euclidean norm of <b>A</b> and <b>A<sup>-1</sup></b></li>
+    <li>Calculate matrix condition number using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system with accuracy.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Problem 2</h2>
+  <p>Determine the solution of the simultaneous nonlinear equations</p>
+  <img src="Images/eq1.png" />
+  <p>Use Newton-Raphson method and employ initial guesses of </p>
+  <div class="answerSection">
+    <b>x<sub>1</sub></b> =
+    <span id="problem2AnswerA" class="answer">
+    </span>
+  </div>
+
+  <div class="answerSection -end">
+    <b>b</b> =
+    <span id="problem2AnswerB" class="answer">
+    </span>
+  </div>
+  <ul>
+    <li>Write and calculate Jacobian matrix. </li>
+    <li>Calculate x1 and x2 after first iteration and calculate f1 and f2 with updated x1, x2.</li>
+    <li>Calcualte error of approximation, ea. </li>
+  </ul>
+</section>
+
+
+<section>
+  <h2>Problem 3</h2>
+  <p>Application of Eigenvalues and Eigenvectors</p>
+  <img src="Images/floor1.png" width="550px" />
+  <p>
+    Consider the mass spring model to gain insight into the dynamics of structures under the influence of disturbances such as earthquakes.
+    Above figure shows such a model for a two-stroy building. Each floor mass is represented by m<sub>i</sub>, and each floor stiffness is represented by k. <br>
+    The frequencies for the mass vibrations can be determined by solving for the eigenvalues and by applying <i>MX<sup>"</sup> + kX_ = 0</i>, which yields
+  </p>
+  <br>
+  <img src="Images/mx1.png" width="600px" />
+  <p>
+    Applying the guess <b>x = x<sub>0</sub>e<sup>i&omega;<sub>n</sub>t</sup></b> as a solution, we get the following matrix:
+  </p>
+  <img src="Images/mx2.png" width="400" /> <br/>
+  <p>
+    where x<sub>i</sub> represent horizontal floor displacement, and &omega;<sub>n</sub> is the natural, or resonant, frequency (radians/s).
+  </p>
+  <div class="answerSection">
+    Let <b><i>m<sub>1</sub></i></b> (Kg) = <b><i>m<sub>2</sub></i></b> (Kg) =
+    <span id="problem3AnswerA" class="answer">
+    </span>
+  </div>
+  <div class="answerSection -end">
+    and <b>k</b> (N/m) =
+    <b>b</b> =
+    <span id="problem3AnswerB" class="answer">
+    </span>
+  </div>
+  <ul>
+    <li>Use eigenvalues to solve for freqencies.</li>
+    <li>If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m1 mass.</li>
+  </ul>
+
+  <input type="button" onclick="window.print()" value="Print">
+</section>
+
+<section>
+  <h1>Submission</h1>
+  <p>
+    Use above print bottom to save your exam sheet to pdf and upload with your solution to <b>Midterm2 Submission Box</b> in class's blackboard. Please submit your solution before 11:45pm April 30th 2020.
+  </p>
+  <h3>Notice</h3>
+  <p>
+    If the the values and euqations don't match to your problem sheet, no credit will be given for this exam.
+  </p>
+</section>
+
+<section>
+  <input type="text" id="pw1" placeholder="aceess code">
+  <input type="submit" onclick="return runsol()" value="Generate Solution">
+</section>
+
+<script>
+  (function() {
+
+  })()
+
+  function clickedNameGenerate() {
+    const nameValue = document.forms["percentageBiz"]["name"].value;
+    const nyitIdValue = document.forms["percentageBiz"]["nyitid"].value;
+    document.getElementById("studentName").innerHTML = nameValue
+    document.getElementById("problem1AnswerA").innerHTML = parseInt(nyitIdValue,10);
+    document.getElementById("problem1AnswerB").innerHTML = parseInt(nyitIdValue,10)*10;
+    document.getElementById("problem2AnswerA").innerHTML = 1+parseInt(nyitIdValue,10)/1e8;
+    document.getElementById("problem2AnswerB").innerHTML = 1+parseInt(nyitIdValue,10)/1e8;
+    document.getElementById("problem3AnswerA").innerHTML = 1+parseInt(nyitIdValue,10)/10;
+    document.getElementById("problem3AnswerB").innerHTML = 1+parseInt(nyitIdValue,10)/10;
+    return false
+  }
+</script>
+</body>
+
+</html>
+
+<style>
+  body {
+    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #727272;
+    padding-bottom: 100px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    margin: 0 0 20px;
+  }
+
+  b {
+    color: black;
+  }
+
+  section {
+    margin-top: 60px;
+  }
+
+  .studentNameContainer {
+    height: 60px;
+    padding: 10px 0;
+  }
+
+  .studentNameContainer div {
+    margin: 10px;
+    font-weight: bold;
+  }
+
+  .answer {
+    margin-top: 10px;
+  }
+
+  .answerSection {
+    margin: 20px 0;
+  }
+
+  .answerSection.-end {
+    margin-bottom: 50px;
+  }
+
+</style>
