@@ -97,8 +97,13 @@ Use above print bottom to save your exam sheet to pdf and upload with your solut
 If the the values and euqations don't match to your problem sheet, no credit will be given for this exam. 
 <br>
 
-<input type="text" id="pw1" placeholder="aceess code">
+<input type="text" id="pw1" placeholder="access code">
 <input type="submit" onclick="return runsol()" value="Generate Solution">
 
+<script>
+function runsol(){
+ alert("incorrect access code")
+}
+</script>
 <br>
 
