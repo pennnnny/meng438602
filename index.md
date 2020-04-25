@@ -38,14 +38,11 @@ function getp(){
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
 **A** = [<span id="display2_1" ></span>
-
-<div id="display2_2" style="height: 25px; width: 100%;"></div>
+<div id="display2_2" style="height: 10px; width: 100%;"></div>
 <div id="display2_3" style="height: 25px; width: 100%;"></div>
 ]
 <br>
-**b** = [
-<div id="display3" style="height: 25px; width: 100%;"></div>
-]<sup>T</sup>
+**b** = [<span id="display3" ></span>]<sup>T</sup>
 <br>
 
 (i)	Use the matrix inverse to solve for the **c**.<br>
