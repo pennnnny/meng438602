@@ -13,7 +13,7 @@ Time: 5:45pm - 11:45pm
 </form>
 <br>
 The question is for student: 
-<div id="display" style="height: 50px; width: 100%;"></div>
+<div id="display" style="height: 25px; width: 100%;"></div>
 <br>
 
 <script>
@@ -38,13 +38,13 @@ function getp(){
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
 **A** = [
-<div id="display2_1" style="height: 50px; width: 100%;"></div>
+<div id="display2_1" style="height: 25px; width: 100%;"></div>
 <div id="display2_2" style="height: 25px; width: 100%;"></div>
-<div id="display2_3" style="height: 50px; width: 100%;"></div>
+<div id="display2_3" style="height: 25px; width: 100%;"></div>
 ]
 <br>
 **b** = [
-<div id="display3" style="height: 50px; width: 100%;"></div>
+<div id="display3" style="height: 25px; width: 100%;"></div>
 ]<sup>T</sup>
 <br>
 
@@ -59,10 +59,10 @@ Determine the solution of the simultaneous nonlinear equations<br>
 
 Use Newton-Raphson method and employ initial guesses of <br>
 _**x<sub>1</sub>**_ = 
-<div id="display4" style="height: 50px; width: 100%;"></div>
+<div id="display4" style="height: 25px; width: 100%;"></div>
 
 _**x<sub>2</sub>**_ = 
-<div id="display5" style="height: 50px; width: 100%;"></div>
+<div id="display5" style="height: 25px; width: 100%;"></div>
 
 (i) Write and calculate Jacobian matrix. <br>
 (ii) Calculate x<sub>1</sub> and x<sub>2</sub> after first iteration and calculate _f<sub>1</sub>_ and _f<sub>2</sub>_ with updated x<sub>1</sub>, x<sub>2</sub>.<br>
@@ -82,9 +82,9 @@ Applying the guess **x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup>** as a soluti
 where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> is the natural, or resonant, frequency (radians/s).
 
 Let **_m<sub>1</sub>_** (Kg) = **_m<sub>2</sub>_** (Kg) = 
-<div id="display6" style="height: 50px; width: 100%;"></div> 
+<div id="display6" style="height: 25px; width: 100%;"></div> 
 and _**k**_ (N/m) = 
-<div id="display7" style="height: 50px; width: 100%;"></div> 
+<div id="display7" style="height: 25px; width: 100%;"></div> 
 
 (i) Use eigenvalues to solve for freqencies.<br>
 (ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m<sub>1</sub> mass.<br>
