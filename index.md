@@ -39,7 +39,7 @@ A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<
 
 **A** = [
 <span id="display2_1" ></span>
-<div id="display2_1" style="height: 25px; width: 100%;"></div>
+<div id="display2_2" style="height: 25px; width: 100%;"></div>
 <div id="display2_2" style="height: 25px; width: 100%;"></div>
 <div id="display2_3" style="height: 25px; width: 100%;"></div>
 ]
